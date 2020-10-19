@@ -2013,7 +2013,6 @@ class Http2UpgradeHandler extends AbstractStream implements InternalHttpUpgradeH
 
             int left = allocation - remainingReservation;
             unusedAllocation += remainingReservation;
-            remainingReservation = 0;
 
             return left;
         }
