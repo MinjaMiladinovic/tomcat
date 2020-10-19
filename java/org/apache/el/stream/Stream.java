@@ -517,6 +517,5 @@ public class Stream {
             throw new UnsupportedOperationException();
         }
 
-        protected abstract void findNext();
     }
 }
